@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+pkgname="txt"
+pkgver="0.0.0"
+pkgrel=0
+arch="x86_64"
+url="https://github.com/erffy/apkg"
+license=(
+  "UNLICENSE"
+)
+source="https://github.com/erffy/apkg"
+sha256sums=(
+  ""
+)
+
+prepare() {
+
+}
+
+build() {
+
+}
+
+package() {
+
+}
+
+check() {
+
+}
