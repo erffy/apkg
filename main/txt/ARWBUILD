@@ -13,18 +13,39 @@ sha256sums=(
   ""
 )
 
+# Start of Selection
+# prepare() - Function to prepare the build environment
+# This function is called before the build process starts.
+# It can be used to set up dependencies, configure settings, or perform any necessary tasks
+# to ensure that the build can proceed smoothly.
 prepare() {
 
 }
 
+# Start of Selection
+# build() - Function to compile the package
+# This function is called to build the package from the source code.
+# It should contain the commands necessary to compile the software,
+# including any configuration or make commands required for the build process.
 build() {
 
 }
 
+# Start of Selection
+# package() - Function to package the compiled software
+# This function is called after the build process to install the package
+# into the appropriate directories. It should handle the installation
+# of files, setting up necessary configurations, and any other tasks
+# required to finalize the package for distribution.
 package() {
 
 }
 
+# check() - Function to verify the package integrity
+# This function is called to run tests or checks on the package
+# to ensure that it has been built correctly and is functioning as expected.
+# It can include commands to run tests, validate files, or perform
+# any other necessary checks before the package is considered ready.
 check() {
 
 }
