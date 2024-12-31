@@ -13,7 +13,6 @@ sha256sums=(
   ""
 )
 
-# Start of Selection
 # prepare() - Function to prepare the build environment
 # This function is called before the build process starts.
 # It can be used to set up dependencies, configure settings, or perform any necessary tasks
@@ -22,7 +21,6 @@ prepare() {
 
 }
 
-# Start of Selection
 # build() - Function to compile the package
 # This function is called to build the package from the source code.
 # It should contain the commands necessary to compile the software,
@@ -31,7 +29,6 @@ build() {
 
 }
 
-# Start of Selection
 # package() - Function to package the compiled software
 # This function is called after the build process to install the package
 # into the appropriate directories. It should handle the installation
