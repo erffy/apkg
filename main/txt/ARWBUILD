@@ -10,7 +10,7 @@ license=(
 )
 source="https://raw.githubusercontent.com/erffy/apkg/refs/heads/master/main/txt/testappfile"
 sha256sums=(
-  ""
+  "SKIP"
 )
 
 # prepare() - Function to prepare the build environment
@@ -18,7 +18,7 @@ sha256sums=(
 # It can be used to set up dependencies, configure settings, or perform any necessary tasks
 # to ensure that the build can proceed smoothly.
 prepare() {
-
+  echo "preparing..."
 }
 
 # build() - Function to compile the package
@@ -26,7 +26,7 @@ prepare() {
 # It should contain the commands necessary to compile the software,
 # including any configuration or make commands required for the build process.
 build() {
-
+  echo "building..."
 }
 
 # package() - Function to package the compiled software
@@ -35,7 +35,7 @@ build() {
 # of files, setting up necessary configurations, and any other tasks
 # required to finalize the package for distribution.
 package() {
-
+  echo "packaging..."
 }
 
 # check() - Function to verify the package integrity
@@ -44,5 +44,5 @@ package() {
 # It can include commands to run tests, validate files, or perform
 # any other necessary checks before the package is considered ready.
 check() {
-
+  echo "checking..."
 }
