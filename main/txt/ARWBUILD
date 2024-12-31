@@ -4,11 +4,11 @@ pkgname="txt"
 pkgver="0.0.0"
 pkgrel=0
 arch="x86_64"
-url="https://github.com/erffy/apkg"
+url="https://github.com/erffy/apkg/main/txt/ARWBUILD"
 license=(
   "UNLICENSE"
 )
-source="https://github.com/erffy/apkg"
+source="https://raw.githubusercontent.com/erffy/apkg/refs/heads/master/main/txt/testappfile"
 sha256sums=(
   ""
 )
