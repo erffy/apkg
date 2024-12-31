@@ -3,6 +3,7 @@
 pkgname="txt"
 pkgver="0.0.0"
 pkgrel=0
+pkgout="single"
 arch="x86_64"
 url="https://github.com/erffy/apkg/main/txt/ARWBUILD"
 license=(
