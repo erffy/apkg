@@ -3,7 +3,6 @@
 pkgname="txt"
 pkgver="0.0.0"
 pkgrel=0
-pkgout="single"
 arch="x86_64"
 url="https://github.com/erffy/apkg/main/txt/ARWBUILD"
 license=(
@@ -36,7 +35,7 @@ build() {
 # of files, setting up necessary configurations, and any other tasks
 # required to finalize the package for distribution.
 package() {
-  echo "packaging..."
+  cp ~/.arrow/source/$pkgname ~/.arrow/bin/
 }
 
 # check() - Function to verify the package integrity
