@@ -8,7 +8,7 @@ url="https://github.com/erffy/apkg/main/txt/ARWBUILD"
 license=(
   "UNLICENSE"
 )
-source="https://raw.githubusercontent.com/erffy/apkg/refs/heads/master/main/txt/testappfile"
+source="https://raw.githubusercontent.com/erffy/apkg/refs/heads/master/main/txt/txt-0.0.1.txt"
 sha256sums=(
   "SKIP"
 )
@@ -35,7 +35,7 @@ build() {
 # of files, setting up necessary configurations, and any other tasks
 # required to finalize the package for distribution.
 package() {
-  cp ~/.arrow/source/$pkgname ~/.arrow/bin/
+  cp ~/.arrow/source/txt-0.0.1.txt ~/.arrow/bin/
 }
 
 # check() - Function to verify the package integrity
